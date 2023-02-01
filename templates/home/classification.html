@@ -12,6 +12,7 @@
     rel="stylesheet" />
 
   <title>Classification</title>
+  <link rel="icon" href="{% static 'assets/images/white-logo1.png' %}" type = "image/x-icon">
 
   <!-- Bootstrap core CSS -->
   <link href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet" />
@@ -53,8 +54,8 @@ https://templatemo.com/tm-564-plot-listing
             <ul class="nav">
               <li><a href="/home">Home</a></li>
               <li><a href="/about" class="active">About us</a></li>
-              <li><a href="/contact">Contact Us</a></li>
               <li><a href="/platform">Our Platform</a></li>
+              <li><a href="/contact">Contact Us</a></li>
            
             </ul>
             <a class="menu-trigger">
@@ -72,7 +73,7 @@ https://templatemo.com/tm-564-plot-listing
         <div class="col-lg-8">
           <div class="top-text header-text">
             <h6>Mosquito classification</h6>
-            <h2>Classify your your mosquito using deep learning</h2>
+            <h2>Classify your mosquito using Deep Learning</h2>
           </div>
         </div>
       </div>
@@ -187,81 +188,94 @@ https://templatemo.com/tm-564-plot-listing
           <p><span>Category :</span> Anopheles stephensi</p>
           <p><span>Description :</span> Anopheles stephensi is a primary mosquito vector of malaria in urban India and
             is included in the same subgenus as Anopheles gambiae, the primary malaria vector in Africa.</p>
-          <p><span> Diseases :</span> Anopheles stephensi is an invasive mosquito species that transmits malaria
+            <p><span> Diseases :</span> Anopheles stephensi is an invasive mosquito species that transmits malaria
             parasites Plasmodium falciparum and Plasmodium vivax</p>
         </div>
         <div class="mimg">
           <img src="{% static 'assets/images/culex.jpeg' %}" alt="">
         </div>
       </div>
-
+      
       {% endif %}
-
-
+      <p style="
+      text-align: center;
+      margin: 2rem;
+  "><i style="
+      text-align: center;
+  ">*Credits for Dataset<a href="https://data.mendeley.com/datasets/88s6fvgg2p/4"> Link</a></i></p>
       <div class="working">
+      <div class="working">
+        <h3>How to use</h3>
+        <div class="con">
+
+          <p>Click the picture of the mosquito as shown in the demo image. <br>
+            <span>Upload and submit the image for the results.</span><br>
+          <i>*for better results use macro image and avoid other objects in the image.</i>
+          </p>
+          <img src="{% static 'assets/images/1.jpg' %}" alt="">
+        </div>
+
+      </div>
         <h3>How it Works</h3>
         <div class="con">
 
           <p>The image of a mosquito is collected in the system and run into the model which detects the accurate
             species of
-            mosquito and tells if it is dangerous or not. For detection, we use an Image Classifier model.
-            For this we have used <span> Azure service Custom Vison</span></p>
+            mosquito and tell the species name of that mosquito. For detection, we have developed an Image Classifier model.
+            by using <span> Azure Congnitive Services</span></p>
           <img src="{% static 'assets/images/download (1).png' %}" alt="">
         </div>
-
+n
       </div>
-      <footer>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-4">
-              <div class="about">
-                <div class="logo">
-                  <img src="{% static 'assets/images/white-logo2.png' %}" alt="" />
-                </div>
-                <p>One step Solutions for preventing mosquito-borne diseases.</p>
+     
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="about">
+              <div class="logo">
+                <img
+                  src="{% static 'assets/images/white-logo2.png' %}"
+                  alt=""
+                />
               </div>
+              <p>One step Solutions for preventing mosquito-borne diseases.</p>
             </div>
-            <div class="col-lg-4">
-              <div class="helpful-links">
-                <h4>Helpful Links</h4>
-                <div class="row">
-                  <div class="col-lg-6">
-                    <ul>
-                      <li><a href="#">Categories</a></li>
-                      <li><a href="#">Reviews</a></li>
-                      <li><a href="#">Contact Us</a></li>
-                    </ul>
-                  </div>
-                  <div class="col-lg-6">
-                    <ul>
-                      <li><a href="#">About Us</a></li>
-                    </ul>
-                  </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="helpful-links">
+              <h4>Helpful Links</h4>
+              <div class="row">
+                <div class="col-lg-6">
+                  <ul>
+                    <li><a href="/home">Home</a></li>
+        
+                    <li><a href="/about">About us</a></li>
+                    <li><a href="/platform">Our platform</a></li>
+                  </ul>
                 </div>
-              </div>
-            </div>
-            <div class="col-lg-4">
-              <div class="contact-us">
-                <h4>Contact Us</h4>
-                <p>NIT Hamirpur</p>
-                <div class="row">
-                  <div class="col-lg-6">
-                    <a href="#">9876234232</a>
-                  </div>
-                  <div class="col-lg-6">
-                    <a href="#">9856743012</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-12">
-              <div class="sub-footer">
-                <p></p>
+                
               </div>
             </div>
           </div>
+          <div class="col-lg-4">
+            <div class="contact-us">
+              <a href="/contact">
+                <h4>Contact Us</h4>
+              </a>
+                
+                
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-12">
+            <div class="sub-footer">
+              <p></p>
+            </div>
+          </div>
         </div>
-      </footer>
+      </div>
+    </footer>
       <!-- Scripts -->
       <script src="{% static 'vendor/jquery/jquery.min.js' %}"></script>
       <script src="{% static 'vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>

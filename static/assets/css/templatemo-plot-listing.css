@@ -106,6 +106,10 @@
   font-size: 17px;
   font-weight: 500;
 }
+.img{
+  margin: 1rem;
+  border-radius: 20px;
+}
 
 .about_us p {
   color: black;
@@ -113,6 +117,8 @@
   font-weight: 500;
   padding: 2rem;
   text-align: center;
+  width: 54%;
+  align-self: center;
 }
 
 .about_us {
@@ -380,6 +386,7 @@ figcaption {
   color: #2a2a2a;
   font-weight: 500;
   padding: 3rem;
+  width: 173%;
 }
 
 .grid-item {

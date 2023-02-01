@@ -16,6 +16,7 @@
     />
 
     <title>About us</title>
+    <link rel="icon" href="{% static 'assets/images/white-logo1.png' %}" type = "image/x-icon">
 
     <!-- Bootstrap core CSS -->
     <link href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet" />
@@ -65,8 +66,8 @@ https://templatemo.com/tm-564-plot-listing
               <ul class="nav">
                 <li><a href="/home">Home</a></li>
                 <li><a href="/about" class="active">About us</a></li>
-                <li><a href="/contact">Contact Us</a></li>
                 <li><a href="/platform">Our Platform</a></li>
+                <li><a href="/contact">Contact Us</a></li>
                
               </ul>
               <a class="menu-trigger">
@@ -92,15 +93,15 @@ https://templatemo.com/tm-564-plot-listing
   </div>
   <div class="about_us">
     <h3>Implementing One-Stop Solution for eradicating mosquito-borne diseases</h3>
-    <p><span style="color: #23ce6b;"> M-zap</span> is powered by artificial intelligence that can classify mosquito species, predict malaria cases in an area and
-      visualize malaria hotspots. Our web-based application conveys state-of-the-art AI strategies to field workers and
-      common people simplistically, encouraging a wide range of adoption. </p>
+    <p><span style="color: #23ce6b;"> M-zap</span> is powered by artificial intelligence that can classify mosquito species, predict dengue cases in an area and
+      visualize dengue hotspots. Our web-based application conveys state-of-the-art AI strategies to field workers and
+      common people simplistically, encouraging a wide range of adoption to achive mosquito eradication. </p>
     <h3>Who we are</h3>
     <p>We are <span style="color: #23ce6b;"> Harsh, Aditya, and Akhil</span>, the students of NIT Hamirpur, pursuing Btech. We have a common interest in the
       field of research and innovation. We met at a national-level hackathon conducted by our university, we
-      collaborated and won it. The team evolved with a matching vision of two individuals who are learning, just to
+      collaborated and won it. The team evolved with a matching vision of three individuals who are learning, motivaed to
       create a positive effect
-      in the lives of people on this earth.
+      in the lives of people on world.
     </p>
     <h3>What drives us</h3>
     <p>We three are driven by passion and looking forward to making a positive impact on this world through our skills.
@@ -134,13 +135,17 @@ https://templatemo.com/tm-564-plot-listing
                 </div>
             </div>
   </div>
+
   <footer>
     <div class="container">
       <div class="row">
         <div class="col-lg-4">
           <div class="about">
             <div class="logo">
-              <img src="{% static 'assets/images/white-logo2.png' %}" alt="" />
+              <img
+                src="{% static 'assets/images/white-logo2.png' %}"
+                alt=""
+              />
             </div>
             <p>One step Solutions for preventing mosquito-borne diseases.</p>
           </div>
@@ -151,30 +156,23 @@ https://templatemo.com/tm-564-plot-listing
             <div class="row">
               <div class="col-lg-6">
                 <ul>
-                  <li><a href="#">Categories</a></li>
-                  <li><a href="#">Reviews</a></li>
-                  <li><a href="#">Contact Us</a></li>
+                  <li><a href="/home">Home</a></li>
+      
+                  <li><a href="/about">About us</a></li>
+                  <li><a href="/platform">Our platform</a></li>
                 </ul>
               </div>
-              <div class="col-lg-6">
-                <ul>
-                  <li><a href="#">About Us</a></li>
-                </ul>
-              </div>
+              
             </div>
           </div>
         </div>
         <div class="col-lg-4">
           <div class="contact-us">
-            <h4>Contact Us</h4>
-            <p>NIT Hamirpur</p>
-            <div class="row">
-              <div class="col-lg-6">
-                <a href="#">9876234232</a>
-              </div>
-              <div class="col-lg-6">
-                <a href="#">9856743012</a>
-              </div>
+            <a href="/contact">
+              <h4>Contact Us</h4>
+            </a>
+              
+              
             </div>
           </div>
         </div>

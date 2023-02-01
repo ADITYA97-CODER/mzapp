@@ -15,7 +15,9 @@
       rel="stylesheet"
     />
 
-    <title>Home</title>
+    <title>
+      Home</title>
+      <link rel="icon" href="{% static 'assets/images/white-logo1.png' %}" type = "image/x-icon">
 
     <!-- Bootstrap core CSS -->
     <link
@@ -83,8 +85,8 @@ https://templatemo.com/tm-564-plot-listing
               <ul class="nav">
                 <li><a href="/home">Home</a></li>
                 <li><a href="/about" class="active">About us</a></li>
-                <li><a href="/contact">Contact Us</a></li>
                 <li><a href="/platform">Our Platform</a></li>
+                <li><a href="/contact">Contact Us</a></li>
               </ul>
               <a class="menu-trigger">
                 <span>Menu</span>
@@ -212,12 +214,10 @@ https://templatemo.com/tm-564-plot-listing
                                     <div class="col-lg-9">
                                       <h4>Mosquito Classification</h4>
                                       <p>
-                                        The image of a mosquito is collected in
-                                        the system and run into the model which
-                                        detects the accurate species of mosquito
-                                        and tells if it is dangerous or not. For
-                                        detection, we use an Image Classifier
-                                        model.
+                                        Our developed system can classify the type of mosquito from the image itself. The user have to 
+                                        just upload a well illuminated, clear image of mosquito. The system is powered by advanced 
+                                         Image classsifcation algorithms that are working in its backend provding excellent accuracy every time.
+                                         The mosquito classified by our system are Ades, Anopheles and Culex. 
                                       </p>
                                     </div>
                                   </div>
@@ -268,13 +268,9 @@ https://templatemo.com/tm-564-plot-listing
                                         intermediate hosts) are known to be
                                         highly sensitive to long-term changes in
                                         climate and short-term fluctuations in
-                                        the weather. The application of
-                                        environmental data to the study of
-                                        disease offers the capability to
-                                        demonstrate vector–environment
-                                        relationships and potentially forecast
-                                        the risk of disease outbreaks or
-                                        epidemics.
+                                        the weather. 
+                                        Our developed application can predict the no of dengue cased by taking a set of parameters. 
+                                        This application is developed using <span>Azure Machine Learning Studio</span>.
                                       </p>
                                     </div>
                                   </div>
@@ -322,24 +318,11 @@ https://templatemo.com/tm-564-plot-listing
                                         disease cases on the maps to make people
                                         aware of the condition. The data were
                                         are using for visualization were taken
-                                        from both government and private
-                                        sources. In India, the threat of malaria
-                                        has decreased due to the collective
-                                        efforts of both government and
-                                        semi-government organizations. But
-                                        Dengue is still a major issue in India
-                                        that needs to be addressed urgently.
+                                        from users from different location that have 
+                                        scanned mosquitoes from our website.
+                                        The application is powered by SQL lite .
                                       </p>
-                                      <div class="imge">
-                                        <img
-                                          src="/static/assets/images/hotspot1.jpg"
-                                          alt=""
-                                        />
-                                        <img
-                                          src="/static/assets/images/hotspot2.jpg"
-                                          alt=""
-                                        />
-                                      </div>
+                                     
                                     </div>
                                   </div>
                                 </div>
@@ -382,16 +365,9 @@ https://templatemo.com/tm-564-plot-listing
                                     <div class="col-lg-9">
                                       <h4>Water Bodies Detections</h4>
                                       <p>
-                                        Observation of surface water is a
-                                        functional requirement for studying
-                                        ecological and hydrological processes.
-                                        Recent advances in satellite-based
-                                        optical remote sensors have promoted the
-                                        field of sensing surface water to a new
-                                        era.So we use machine learning models to
-                                        analyse the satellite images and then
-                                        use them to predict a water bodies and
-                                        alert the zone as a mild hotspot.
+                                        Open water bodies are breading ground for most of the vector borne disease. To 
+                                        takle this we have developed an object detection application that can detect open water bodies
+                                        from drone images and video. This system is developed by <span>Azure Object Detection(Cognitive Services).</span> 
                                       </p>
                                     </div>
                                   </div>
@@ -427,43 +403,26 @@ https://templatemo.com/tm-564-plot-listing
                                 <div class="description">
                                   <div class="row">
                                     <div class="col-lg-9">
-                                      <h2>Future Plan</h2>
+                                      <h4>Future Plan</h4>
                                       <br />
-                                      <h3>Drone</h3>
+                                      <h4>AI powered Drone </h4>
                                       <p>
                                         Our major upgrade to project will be
                                         addition of drones in the process.
-                                        Drones will run by machine learning
-                                        trained models ,on their own.The various
-                                        usecases of drones are:
+                                        Drones will run by Deep learning
+                                        trained models and can be  used for mapping and auto spraying
                                       </p>
                                       <div class="imge">
-                                        <img
+                                        <img class="img"
                                           src="/static/assets/images/drone-alone.jpg"
                                           alt=""
                                         />
-                                        <img
+                                        <img class="img"
                                           src="/static/assets/images/drone-man.jpg"
                                           alt=""
                                         />
                                       </div>
-                                      <h4>Automatic Pesticide Spray</h4>
-                                      <p>
-                                        We plan on implementing automatic
-                                        Pesticide spray system using drones
-                                        which will powered by machine learning
-                                        to work on their own
-                                      </p>
-                                      <br />
-                                      <h4>Water Body Detection Using Drones</h4>
-                                      <p>
-                                        Drone technology enables effective
-                                        monitoring of small tributary and
-                                        neighborhood scale water bodies. We will
-                                        use drones to automatically scan a area
-                                        if it has any water bodies nearby and
-                                        then disinfect the area.
-                                      </p>
+                                   
                                     </div>
                                   </div>
                                 </div>
@@ -491,7 +450,7 @@ https://templatemo.com/tm-564-plot-listing
         Mosquito-borne diseases are those spread by the bite of an infected
         mosquito. Diseases that are spread to people by mosquitoes include
         <span>
-          virus, West Nile virus, Chikungunya virus, dengue, and malaria.</span
+           West Nile virus, Chikungunya virus, dengue, and malaria.</span
         >
       </p>
       <div class="stats">
@@ -526,9 +485,10 @@ https://templatemo.com/tm-564-plot-listing
               <div class="row">
                 <div class="col-lg-6">
                   <ul>
-                    <li><a href="#">Categories</a></li>
+                    <li><a href="/home">Home</a></li>
         
-                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="/about">About us</a></li>
+                    <li><a href="/platform">Our platform</a></li>
                   </ul>
                 </div>
                 
@@ -537,12 +497,10 @@ https://templatemo.com/tm-564-plot-listing
           </div>
           <div class="col-lg-4">
             <div class="contact-us">
-              <h4>Contact Us</h4>
-              <p>Akhil Jamwal</p>
-              <div class="row">
-                <div class="col-lg-6">
-                  <a href="#">9876234232</a>
-                </div>
+              <a href="/contact">
+                <h4>Contact Us</h4>
+              </a>
+                
                 
               </div>
             </div>

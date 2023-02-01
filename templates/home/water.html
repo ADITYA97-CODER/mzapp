@@ -13,6 +13,7 @@
         rel="stylesheet" />
 
     <title>Water body detection</title>
+    <link rel="icon" href="{% static 'assets/images/white-logo1.png' %}" type = "image/x-icon">
 
     <!-- Bootstrap core CSS -->
     <link href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet" />
@@ -52,8 +53,8 @@ https://templatemo.com/tm-564-plot-listing
                         <ul class="nav">
                             <li><a href="/home">Home</a></li>
                             <li><a href="/about" class="active">About us</a></li>
-                            <li><a href="/contact">Contact Us</a></li>
                             <li><a href="/platform">Our Platform</a></li>
+                            <li><a href="/contact">Contact Us</a></li>
                         </ul>
                         <a class="menu-trigger">
                             <span>Menu</span>
@@ -102,62 +103,64 @@ https://templatemo.com/tm-564-plot-listing
 
           <img class="detect" src="/static/assets/images/im.jpg" alt="">
           {% endif %}
-        
+          </div>
+          
+            <p style="
+            text-align: center;
+            margin: 2rem;
+        "><i style="
+            text-align: center;
+        ">*Credits for <a href="https://www.kaggle.com/datasets/kbhartiya83/swimming-pool-and-car-detection">dataset</a></i></p>
+          <p><i>*Presently this feature is under development and more work needs to be done on it to make it a viable solution.</i></p>
 
-        <p><i>*Presently this feature is under development and more work needs to be done on it to make it a viable solution.</i></p>
-    </div>
     <footer>
         <div class="container">
-            <div class="row">
-                <div class="col-lg-4">
-                    <div class="about">
-                        <div class="logo">
-                            <img src="{% static 'assets/images/white-logo2.png' %}" alt="" />
-                        </div>
-                        <p>One step Solutions for preventing mosquito-borne diseases.</p>
-                    </div>
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="about">
+                <div class="logo">
+                  <img
+                    src="{% static 'assets/images/white-logo2.png' %}"
+                    alt=""
+                  />
                 </div>
-                <div class="col-lg-4">
-                    <div class="helpful-links">
-                        <h4>Helpful Links</h4>
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <ul>
-                                    <li><a href="#">Categories</a></li>
-                                    <li><a href="#">Reviews</a></li>
-                                    <li><a href="#">Contact Us</a></li>
-                                </ul>
-                            </div>
-                            <div class="col-lg-6">
-                                <ul>
-                                    <li><a href="#">About Us</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="contact-us">
-                        <h4>Contact Us</h4>
-                        <p>NIT Hamirpur</p>
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <a href="#">9876234232</a>
-                            </div>
-                            <div class="col-lg-6">
-                                <a href="#">9856743012</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-12">
-                    <div class="sub-footer">
-                        <p></p>
-                    </div>
-                </div>
+                <p>One step Solutions for preventing mosquito-borne diseases.</p>
+              </div>
             </div>
+            <div class="col-lg-4">
+              <div class="helpful-links">
+                <h4>Helpful Links</h4>
+                <div class="row">
+                  <div class="col-lg-6">
+                    <ul>
+                      <li><a href="/home">Home</a></li>
+          
+                      <li><a href="/about">About us</a></li>
+                      <li><a href="/platform">Our platform</a></li>
+                    </ul>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="contact-us">
+                <a href="/contact">
+                  <h4>Contact Us</h4>
+                </a>
+                  
+                  
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-12">
+              <div class="sub-footer">
+                <p></p>
+              </div>
+            </div>
+          </div>
         </div>
-    </footer>
+      </footer>
     <!-- Scripts -->
     <script src="{% static 'vendor/jquery/jquery.min.js' %}"></script>
     <script src="{% static 'vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>

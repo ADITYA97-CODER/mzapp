@@ -37,7 +37,9 @@ Once `pip` has finished downloading the dependencies:
 
 ## Authors
 
-* **Aditya Kumar** - *Initial work* - [ADITYA97-CODER](https://github.com/ADITYA97-CODER)
+* **Aditya Ojha** - *Initial work* - [ADITYA97-CODER](https://github.com/ADITYA97-CODER)
+## Demo
+if you want to use our application then [click](https://m-zapp.azurewebsites.net/)
 
 See also the list of [contributors](https://github.com/ADITYA97-CODER/mzapp/contributors) who participated in this project.
 
